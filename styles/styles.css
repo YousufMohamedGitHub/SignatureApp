@@ -1,0 +1,104 @@
+header h1 {
+  color: #0096e3;
+  text-align: center;
+}
+
+header h2 {
+  color: #b4b4b4;
+  text-align: center;
+  font-weight: normal;
+}
+
+header hr {
+  border: 1px solid #0096e3;
+}
+
+.blueMark {
+  color: #0096e3;
+  border-bottom: 3px solid #0096e3;
+}
+
+.showOption {
+  display: inline;
+}
+
+.btn-group {
+  font-weight: bold;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 2px solid #0096e3;
+}
+
+.TypeOption {
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  float: left;
+  margin-right: 10px;
+}
+
+.DrawOption {
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 10px;
+}
+
+.UploadOption {
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 10px;
+}
+
+input[type=text] {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #d1d1d1;
+  display: block;
+  padding-top: 10px;
+  margin: 0 auto;
+  margin-top: 10px;
+  min-width: 20%;
+  text-align: center;
+  font-family: 'Yellowtail', cursive;
+  font-size: 70px;
+}
+
+#canvas {
+  border: 2px solid #d1d1d1;
+}
+
+#ChangeUpload {
+  display: none;
+}
+
+#ChangeType {
+  display: none;
+}
+
+input[type=file] {
+  padding-left: 500px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.ChangeOptionaDraw {
+  padding-left: 550px;
+  margin-top: 50px;
+  display: none;
+}
+
+.DontShow {
+  display: none;
+}
+/*# sourceMappingURL=styles.css.map */

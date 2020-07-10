@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <title>SignatureApp</title>
+  </head>
+  <body>
+    <header>
+      <h1>Create a Signature</h1>
+      <h2>Use one of the following ways to create your signature</h2>
+
+      <label class="btn-group" id="btn-group">
+        
+        <div class="TypeOption" id="Type" >Type</div>
+        <div class="UploadOption" id="Upload">Upload</div>
+        <div class="DrawOption" id="Draw">Draw</div>
+        
+      </label>
+  
+
+    <div class="ChangeOption">
+
+      
+
+      
+
+      <div class="ChangeOptionaDraw" id="ChangeDraw">
+        <canvas id="canvas"></canvas>
+        <button id="ClearButton">Clear
+          
+        </button>
+          
+      </div>
+
+      <div class="ChangeOptionUpload" id="ChangeUpload">
+        <input type="file" id="Hello">
+   
+         </div>
+
+         <div class="ChangeOptionType" id="ChangeType" >
+
+        
+          <input type="text">
+        
+
+      </div>
+    </div>
+  
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/signature_pad@2.3.2/dist/signature_pad.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
