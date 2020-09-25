@@ -1,2 +1,2 @@
 # SignatureApp
-HTML layout of a signature component
+HTML layout of a signature component using APIs
